@@ -7,7 +7,7 @@ public class main implements ActionListener {
 
     JFrame frame;
     JTextField textField;
-    JButton[] NumberedButtons = new JButton[10];
+    JButton[] NumberedButtons = new JButton[10];2
     JButton[] functionButtons = new JButton[9];
     JButton addButton,subButton,mulButton,divButton;
     JButton decButton,equButton,delButton,clrButton,negButton;
@@ -23,6 +23,7 @@ public class main implements ActionListener {
         frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setSize(420,550);
+        frame.setResizable(false);
         frame.setLayout(null);
 
         textField = new JTextField();
