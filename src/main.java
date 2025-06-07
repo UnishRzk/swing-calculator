@@ -7,7 +7,7 @@ public class main implements ActionListener {
 
     JFrame frame;
     JTextField textField;
-    JButton[] NumberedButtons = new JButton[10];2
+    JButton[] NumberedButtons = new JButton[10];
     JButton[] functionButtons = new JButton[9];
     JButton addButton,subButton,mulButton,divButton;
     JButton decButton,equButton,delButton,clrButton,negButton;
